@@ -1,3 +1,6 @@
+# Sends email via Node.js
+Joan followed this article https://github.com/w3collective/react-contact-form to test the send email via Node.js functionality. Google blocked my attempt to receive my own test email unless I turn on the "less secure app access" in my gmail account settings.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
