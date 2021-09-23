@@ -1,5 +1,3 @@
-#23/09/2021 Joan introduces google font family following this blog: https://blog.greenroots.info/3-quick-ways-to-add-fonts-to-your-react-app
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
