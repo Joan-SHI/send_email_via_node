@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import ContactForm from './ContactForm.js';
+import background from "./Brian.JPG";
 
 function App() {
   return (
     <div className="App">   
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="App-header" style={{ backgroundImage: `url(${background})`,backgroundSize: "cover", backgroundPosition:"100% 100%",}}>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,6 +20,9 @@ function App() {
           Learn React
         </a> */}
         <ContactForm /> 
+        {/* <div style={{ backgroundImage: `url(${background})` }}>
+      Hello World
+    </div> */}
       </header>
     </div>
   );
