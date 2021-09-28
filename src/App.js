@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ContactForm from './ContactForm.js';
-import background from "./Brian.JPG";
+import background from "./images/Brian.JPG";
 
 function App() {
   return (

@@ -9,6 +9,8 @@ Joan introduces google font family following this blog: https://blog.greenroots.
 
 # :dolphin:Introducing React Bootstrap
 https://react-bootstrap.netlify.app/getting-started/introduction
+# :dolphin:Current development
+<a href="https://www.linkedin.com/in/joan-shi-87a152179/" target="_blank"><img src="./images/ks_100.PNG" alt="Khandallah School 100 years Tea towel" width="750" /></a>
 
 # :dolphin:Joan's wish list 
 I wish one day our developers are able to color text in our readme file. It will be handy for the developers to dress up readme and demo their projects to the clients. 
