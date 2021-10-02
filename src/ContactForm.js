@@ -34,6 +34,18 @@ const ContactForm = () => {
         <input type="email" id="email" required />
       </div>
       <div>
+        <label htmlFor="password">Password</label>
+        <input type="password" id="password" required />
+      </div>
+      <div>
+        <label htmlFor="colour">Colour</label>
+        <input type="colour" id="colour" required />
+      </div>
+      <div>
+        <label htmlFor="animals">Animals</label>
+        <input type="animals" id="animals" required />
+      </div>
+      <div>
         <label htmlFor="message">Message</label>
         <textarea id="message" required />
       </div>
