@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ContactForm from './ContactForm.js';
 import background from "./images/Brian.JPG";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
