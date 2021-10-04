@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 
+
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
+    const { name, email, message,color } = e.target.elements;
     let details = {
       name: name.value,
       email: email.value,
       message: message.value,
+      color: color.value,
     };
     let response = await fetch("http://localhost:5000/contact", {
       method: "POST",
@@ -39,25 +41,32 @@ const ContactForm = () => {
         <input type="password" id="password" required />
       </div>
       <div>
-      <label htmlFor="password">Favorite color</label>
-  <Button variant="primary">Blue</Button>{' '}
-  <Button variant="success">Green</Button>{' '}
-  <Button variant="danger">Red</Button> {' '}
-  <Button variant="dark">Black</Button>{' '}
-  <Button variant="secondary">Brown</Button>{' '}
-  
-  
-
-      </div>
       
+      <label htmlFor="color">Favorite color</label>
+      <select>
+  <option value="blue">Blue</option>
+  <option value="green">Green</option>
+  <option selected value="red">Red</option>
+  <option value="black">Black</option>
+  <option value="brown">Brown</option>
+</select>
+  
+ </div>
+ 
+
+   
       <div>
         <label htmlFor="animals">Animals</label>
-        <input type="animals" id="animals" required />
+        <Button variant="primary">Bear</Button>{' '}
+  <Button variant="success">Tiger</Button>{' '}
+  <Button variant="danger">Snake</Button> {' '}
+  <Button variant="dark">Donkey</Button>{' '}
+        {/* <input type="animals" id="animals" required /> */}
       </div>
-      <div>
+      {/* <div>
         <label htmlFor="message">Message</label>
         <textarea id="message" required />
-      </div>
+      </div> */}
       
       <button type="submit">{status}</button>
     </form>
