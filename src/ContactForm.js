@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -38,9 +39,17 @@ const ContactForm = () => {
         <input type="password" id="password" required />
       </div>
       <div>
-        <label htmlFor="colour">Colour</label>
-        <input type="colour" id="colour" required />
+      <label htmlFor="password">Favorite color</label>
+  <Button variant="primary">Blue</Button>{' '}
+  <Button variant="success">Green</Button>{' '}
+  <Button variant="danger">Red</Button> {' '}
+  <Button variant="dark">Black</Button>{' '}
+  <Button variant="secondary">Brown</Button>{' '}
+  
+  
+
       </div>
+      
       <div>
         <label htmlFor="animals">Animals</label>
         <input type="animals" id="animals" required />
