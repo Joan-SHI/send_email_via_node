@@ -9,7 +9,7 @@ Joan introduces google font family following this blog: https://blog.greenroots.
 
 ### Introducing React Bootstrap
 https://react-bootstrap.netlify.app/getting-started/introduction
-# :dolphin:Current development
+### Current development
 <a href="https://www.linkedin.com/in/joan-shi-87a152179/" target="_blank"><img src="./src/images/ks_100.PNG" alt="Khandallah School 100 years Tea towel" width="750" /></a>
 
 ### Joan's wish list 
